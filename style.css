@@ -27,6 +27,15 @@ header {
     box-shadow: 0px 0px 5px 1px rgb(102, 95, 95);
 }
 
+
+footer{
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(102, 95, 95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bodyIndex {
     background-image: url("wheat.png");
 }
