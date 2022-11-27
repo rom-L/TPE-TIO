@@ -40,6 +40,12 @@ footer{
     background-image: url("wheat.png");
 }
 
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
 .logo-menu {
     display: flex;
     justify-content: space-between;
