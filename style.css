@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@576&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+main {
+    min-height: calc(100vh - 72.4px - 188.6px);
+}
+
+header {
+    position: -webkit-sticky;
+    font-family: 'Krona One', sans-serif;
+    position: sticky;
+    top: 0;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(102, 95, 95);
+}
+
+
+
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    width: 100%;
+}
+
+ul.navegacion {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+ul.navegacion a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.navegacion li {
+    list-style: none;
+    padding: 15px;
+    border: solid 2px;
+    margin: 5px;
+}
+
+ul.navegacion.show {
+    display: flex;
+}
+
+ul.navegacion li:hover {
+    background-color: gray;
+}
+
+.contactos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.informacion{
+    width: 100%;
+}
+
+div.informacion ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.informacion ul li{
+    font-size: 19px;
+}
+
+.resaltadoLista, .resaltCopyright {
+    font-weight: bold;
+}
+
+.imgSocials{
+    width: 35px;
+}
+
+
+
+.textoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.parrMain, .fontText {
+    font-family: 'Amatic SC',sans-serif;
+}
+
+.fontText{
+    color: rgb(15, 159, 236);
+    text-shadow: 1px 2px 2px rgb(32, 25, 25);
+}
+
+.parrMain{
+    margin-top: 40px;
+    margin-bottom: 32px;
+    font-size: 27px;
+    color: rgb(15, 159, 236);
+    text-shadow: 1px 2px 2px rgb(32, 25, 25);
+}
+
+.imgsMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.imgsMain {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: solid 3px rebeccapurple;
+}
+
+#h1MainText {
+    font-size: 40px;
+}
+
+#h2MainText {
+    font-size: 29px;
+}
+
+.btn-menu {
+    padding: 15px;
+    width: -100%;
+}
+
+.btn-menu a {
+    text-decoration: none;
+}
+
+.btn-menu a {
+    cursor: pointer;
+}
+
+ul.navigacion{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra{
+    border-bottom: solid;
+    display: flex;
+    background-color: gainsboro;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main.mainComprar {
+    background-color: aliceblue;
+}
+
+main.mainComprar {
+    background-image: url("../img/folk-pattern-black.png");
+}
+
+.mainContactos {
+    background-image: url("../img/cork-board.png");
+}
+
+.imgsBolsos {
+    width: 120px;
+    height: 100%;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+section.container-productos{
+    background-color: white;
+}
+
+.bolso{
+    border-bottom: solid 2px gray;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.infoBolso {
+    width: 50%;
+}
+
+.botonComprar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deepskyblue;
+    border-radius: 7px;
+    border-style: groove;
+    width: 48%;
+    height: 24%;
+    margin-top: 8px;
+}
+
+.botonComprar:active{
+    border-style: ridge;
+}
+
+.botonComprar a {
+    font-family: 'Krona One',sans-serif;
+    font-size: 80%;
+    color: rgb(1, 12, 22);
+}
+
+.precioResaltado{
+    color: rgb(223, 78, 25);
+    font-size: 21px;
+}
+
+.nameFont{
+    color: rgb(255, 68, 0);
+    font-size: 23px;
+}
+
+.precioResaltado, .nameFont {
+    font-family: 'Antonio',sans-serif;
+}
+
+.anchorDec {
+    text-decoration: none;
+}
+
+aside.tabla{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+aside.tabla table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+aside.tabla table{
+    background-color: wheat;
+}
+
+aside.tabla thead{
+    background-color: rgb(238, 49, 49);
+}
+
+aside.tabla td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainContactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marginTextarea{
+    margin-right: 10px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.captchaContent {
+    height: 45%;
+    width: 80%;
+    background-color: rgb(166, 43, 43);
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.captcha {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.captchaTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.h1Font{
+    color: rgb(30, 100, 190);
+    font-family: 'Krona One',sans-serif;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.marginForm, .textarea{
+    margin-left: 60px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.userInputDiv {
+    height: 100%;
+    padding: 3px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: gray;
+}
+
+/*admin*/
+
+.mainAdmin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/wheat.png");
+}
+
+.mainAdmin h1{
+    margin-top: 10px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 21px;
+    color: #21848d;
+    text-decoration: underline;
+}
+
+.container-admin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #AA6E39;
+    width: 98%;
+    height: 160vh;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.acciones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1px;
+}
+
+.adminForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminAcciones {
+    height: 8vh;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.listado {
+    background-color: aliceblue;
+    padding: 5px;
+    margin-top: 10px;
+    height: 68%;
+    width: 98%; 
+    font-weight: bold;
+}
+
+.tablaAdmin{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablaAdmin table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tablaAdmin table{
+    background-color: wheat;
+}
+
+.tablaAdmin thead{
+    background-color: #408E2F;
+}
+
+.tablaAdmin td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tablaAdmin td, tr{
+    width: 100vw;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {         /*-----------------------PARA TABLET-----------------------*/
+
+    main {
+        min-height: calc(100vh - 84.4px - 174.2px);
+    }
+
+    #h1MainText {
+        font-size: 5em;
+    }
+
+    #h2MainText {
+        font-size: 4em;
+    }
+
+    .parrMain {
+        font-size: 3em;
+    }
+
+    .imgsMainDiv {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .imgsMain {
+        border: solid 4px;
+    }
+
+    div.informacion ul li{
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .btn-menu {
+        font-size: 1.6em;
+    }
+    
+    ul.navegacion li {
+        font-size: 20px;
+    }
+
+    .barra{
+        font-size: 35px;
+    }
+    
+    .imgsBolsos {
+        width: 210px;
+    }
+    
+    .infoBolso {
+        width: 45%;
+    }
+    
+    .botonComprar{
+        width: 50%;
+        height: 29%;
+        margin-top: 36px;
+    }
+    
+    .botonComprar a {
+        font-size: 22px;
+    }
+    
+    .precioResaltado{
+        font-size: 35px;
+    }
+    
+    .nameFont{
+        font-size: 40px;
+    }
+    
+    aside.tabla td {
+        font-size: 35px;
+    }
+    
+    .marginTextarea{
+        margin-top: 50px;
+    }
+    
+    .captcha {
+        font-size: 50px;
+    }
+    
+    .captchaTitle{
+        font-size: 30px;
+    }
+    
+    .h1Font{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .marginForm, .textarea{
+        font-size: 35px;
+    }
+
+    .boton {
+        height: 45px;
+        width: 100px;
+    }
+    
+    .submitButton {
+        width: 24%;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .userInputDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*admin*/
+
+    .mainAdmin h1{
+        font-size: 40px;
+    }
+
+    .listado {
+        height: 65%;
+    }
+    
+    .tablaAdmin table, tr, td {
+        border: 3px solid black;
+    }
+    
+    .tablaAdmin td, tr{
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {    /*-----------------------PARA ESCRITORIO-----------------------*/
+    .btn-menu {
+        display: none;
+    }
+
+    main {
+        min-height: calc(100vh - 137.4px - 148.6px);
+    }
+
+    .nameFont:hover{
+        color: rgb(151, 60, 26);
+    }
+
+    .logo {
+        user-select: none;
+    }
+
+    ul.navegacion {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul.navegacion li {
+        border: solid 1px;
+    }
+
+    ul.navegacion li a {
+        user-select: none;
+    }
+
+    div.informacion ul li{
+        font-size: 20px;
+    }
+
+    section.container-productos{
+        background-color: white;
+        height: 100%;
+        width: 50%;
+        border-style: solid;
+        border-color: rgb(159, 165, 170);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .barra{
+        background-color:rgb(226, 219, 219);
+        border-color: rgb(159, 165, 170);
+    }
+    
+    .barra p{
+        margin-left: 14px;
+        margin-bottom: 2px;
+        font-size: 25px;
+    }
+    
+    .fila{
+        display: flex;
+    }
+    
+    .bolso{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border: solid;
+        border-color: rgb(159, 165, 170);
+    }
+    
+    .infoBolso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    main.mainComprar{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    aside.tabla{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+
+    aside.tabla td {
+        font-size: 20px;
+    }
+
+    .botonComprar{
+        height: 33px;
+        width: 80px;
+        margin-bottom: 5px;
+    }
+    
+    .botonComprar a{
+        display: flex;
+        align-items: center;
+        font-size: 80%;
+    }
+
+    .imgsBolsos {
+        width: 100%;
+    }
+
+    .precioResaltado{
+        font-size: 20px;
+    }
+    
+    .nameFont{
+        font-size: 23px;
+    }
+
+    .marginForm, .textarea{
+        text-decoration: underline;
+    }
+
+    /*admin*/
+
+    .container-admin{
+        height: 1600px;
+        border-radius: 10px;
+    }
+
+    .acciones {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .adminForm {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .adminAcciones {
+        height: 6vh;
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    .listado {
+        height: 94%;
+        border-radius: 10px;
+    }
+    
+    .tablaAdmin td, tr{
+        font-size: 25px;
+    }
+
+}
