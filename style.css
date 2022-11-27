@@ -27,8 +27,9 @@ header {
     box-shadow: 0px 0px 5px 1px rgb(102, 95, 95);
 }
 
-
-
+.bodyIndex {
+    background-image: url("wheat.png");
+}
 
 .logo-menu {
     display: flex;
